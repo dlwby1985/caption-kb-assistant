@@ -1,0 +1,19 @@
+node_modules/
+dist/
+dist-electron/
+dist-types/
+out/
+release/
+.env
+.env.*
+*.log
+
+# User data (created at runtime, not in repo)
+global-kb/files/*
+projects/*/
+!projects/.gitkeep
+config.yaml
+
+# Personal/temp files
+*.docx
+~$*
